@@ -1,7 +1,7 @@
 services:
-  cliproxyapi:
+  bluseapi:
     image: ghcr.io/arron196/cliproxyapi:latest
-    container_name: cliproxyapi
+    container_name: bluseapi
     restart: unless-stopped
     ports:
       - "127.0.0.1:3111:8080"
